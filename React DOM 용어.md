@@ -81,9 +81,9 @@ React Nodes
 ReactNode는 다음 중 하나이다.
 
 - `ReactElement`
-- `string` (aka `ReactText`)
-- `number` (aka `ReactText`)
-- Array of `ReactNode`s (aka `ReactFragment`)
+- `string` (즉 `ReactText`)
+- `number` (즉 `ReactText`)
+- Array of `ReactNode`s (즉 `ReactFragment`)
 
 
 ReactNode는 다른 ReactElement의 속성으로 사용되어 자식(children)으로 표현될 수 있다. 이렇게 해서 효과적으로 ReactElement의 tree를 만들 수 있다.
