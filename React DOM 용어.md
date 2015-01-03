@@ -78,7 +78,7 @@ var root = React.DOM.ul({ className: 'my-list' },
 React Nodes
 -----------
 
-ReactNode에는 다음 중 하나이다.
+ReactNode는 다음 중 하나이다.
 
 - `ReactElement`
 - `string` (aka `ReactText`)
