@@ -92,7 +92,7 @@ ReactNode는 다른 ReactElement의 속성으로 사용되어 자식(children)�
 React Components
 ----------------
 
-ReactElement만을 이용하여 웹페이지를 만들 수 있지만, ReactElement는 stateless인ㄷ 반해, ReactComponent를 이용하면 내장 상태를 캡슐화할 수 있다.
+ReactElement만을 이용하여 웹페이지를 만들 수 있지만, ReactElement는 stateless인데 반해, ReactComponent를 이용하면 내장 상태를 캡슐화할 수 있다.
 
 ReactComponent Class는 단지 Javascript 클래스(혹은 “생성자 함수”)이다.
 
