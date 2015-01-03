@@ -138,7 +138,7 @@ componentA === componentB; // true
 
 만일 직접 ReactComponent를 만든다면 위와 같은 동등성은 보장되지 않을 것이다. 이것이 생성자 함수를 직접 호출하면 안되는 이유이다. 대신에 ReactElement는 구축되기 전의 가상 ReactComponent이다. 요시기 이전과 이후의 ReactElement를 비교하면 새로운 ReactComponent가 만들어졌는지, 아니면 기존의 것이 재사용되었는지를 알 수 있다.
 
-ReactComponent의 render메소드 또 다른 ReactElement를 리턴하는데, 이런 식으로 Component들은 구성가능하게 된다. 최종적으로 ReactElement는 일반적인 DOM element의 인스턴스가 되는 string tag를 지닌 ReactElement로 분해된다.
+ReactComponent의 render메소드는 또 다른 ReactElement를 리턴하는데, 이런 식으로 Component들은 구성가능하게 된다. 최종적으로 ReactElement는 일반적인 DOM element의 인스턴스가 되는 string tag를 지닌 ReactElement로 분해된다.
 
 Formal Type Definitions
 -----------------------
