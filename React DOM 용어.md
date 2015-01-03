@@ -19,7 +19,7 @@ React.createElement함수로 ReactElement 오브젝트를 만들 수 있다.
 var root = React.createElement('div');
 ```
 
-이 함수의 첫번째 인수는 ReactElement의 type이다. 이것은 일반적인 html tag 이름의 스트링이거나 아니면 ReactComponent Class가 될 수 있다.
+이 함수의 첫번째 인수는 ReactElement의 type이다. 이것은 일반적인 html tag 이름의 스트링(번역자주, 혹은 ReactComponent Class)가 될 수 있다.
 
 DOM에 랜더링하기 위해서는 ReactElement를 만들어서 React.render 함수에 보통의 DOM element(HTMLElement, SVGElement)와 함께 전달한다. ReactElement와 DOM element를 혼동해서는 안된다. ReactElement는 DOM element에 대한 가볍고, 상태가 없는, 가상의 표현체이다. 그것은 가상 DOM (Virtual DOM)이다.
 
